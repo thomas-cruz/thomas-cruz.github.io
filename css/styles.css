@@ -11343,6 +11343,15 @@ p.lead {
   outline-color: #d48a6e;
 }
 
+.carousel-item{
+  text-align: center;
+  img{
+    object-fit: cover;
+    width: 400px;
+    height: auto;
+  }
+}
+
 @media (min-width: 992px) {
   #sideNav {
     padding-left: 0;
